@@ -1,0 +1,32 @@
+{
+  "name": "sambalpuri-saree-hub",
+  "version": "1.0.0",
+  "description": "Modern Sambalpuri Saree Hub web app with Tailwind, Express, MongoDB",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon --watch src --watch views --ext js,ejs --exec node src/server.js",
+    "build:css": "tailwindcss -i ./src/styles/input.css -o ./public/css/styles.css --minify",
+    "build": "npm run build:css",
+    "seed": "node src/scripts/seed.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.19.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "autoprefixer": "^10.4.21",
+    "nodemon": "^3.1.10",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14"
+  }
+}

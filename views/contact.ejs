@@ -1,0 +1,26 @@
+<%- include('partials/head') %>
+
+<main class="max-w-3xl mx-auto px-4 py-16">
+  <h1 class="text-3xl font-bold">Contact Us</h1>
+  <p class="mt-2 text-zinc-700 dark:text-zinc-200">We’d love to hear from you. For orders or inquiries, fill out the form or reach us at <a class="text-primary-700 underline" href="mailto:info@sambalpurisareehub.com">info@sambalpurisareehub.com</a>.</p>
+
+  <form id="contactForm" class="mt-8 space-y-4">
+    <div>
+      <label class="block text-sm mb-1" for="name">Name</label>
+      <input class="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 dark:bg-zinc-800 px-4 py-2" id="name" name="name" required />
+    </div>
+    <div>
+      <label class="block text-sm mb-1" for="email">Email</label>
+      <input type="email" class="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 dark:bg-zinc-800 px-4 py-2" id="email" name="email" required />
+    </div>
+    <div>
+      <label class="block text-sm mb-1" for="message">Message</label>
+      <textarea class="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 dark:bg-zinc-800 px-4 py-2" id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button class="rounded-lg bg-primary-700 hover:bg-primary-600 text-white px-6 py-2">Send</button>
+    <p id="contactStatus" class="mt-2 text-sm"></p>
+  </form>
+</main>
+
+<script src="/public/js/contact.js"></script>
+<%- include('partials/footer') %>

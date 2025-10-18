@@ -1,0 +1,31 @@
+<%- include('partials/head') %>
+
+<main class="max-w-6xl mx-auto px-4 py-16">
+  <h1 class="text-3xl font-bold">Find Your Perfect Saree</h1>
+  <p class="mt-2 text-zinc-700 dark:text-zinc-200">Search our collection or from Bayanika API.</p>
+
+  <form id="searchForm" class="mt-6 grid grid-cols-1 sm:grid-cols-4 gap-3" onsubmit="return false;">
+    <input id="q" type="text" placeholder="e.g., Bomkai, Pasapalli" class="col-span-1 sm:col-span-2 rounded-lg border-zinc-300 dark:border-zinc-700 dark:bg-zinc-800 w-full px-4 py-2" />
+    <select id="color" class="rounded-lg border-zinc-300 dark:border-zinc-700 dark:bg-zinc-800 px-3 py-2">
+      <option value="">Any Color</option>
+      <option>Red</option>
+      <option>Blue</option>
+      <option>Green</option>
+      <option>Black</option>
+      <option>Yellow</option>
+    </select>
+    <select id="design" class="rounded-lg border-zinc-300 dark:border-zinc-700 dark:bg-zinc-800 px-3 py-2">
+      <option value="">Any Design</option>
+      <option>Traditional</option>
+      <option>Modern</option>
+      <option>Silk</option>
+      <option>Cotton</option>
+    </select>
+    <button class="sm:col-span-4 rounded-lg bg-primary-700 hover:bg-primary-600 text-white px-6 py-2 transition" onclick="searchSarees(event)">Search</button>
+  </form>
+
+  <div id="results" class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+</main>
+
+<script src="/public/js/find.js"></script>
+<%- include('partials/footer') %>
