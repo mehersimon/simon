@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Classic Sambalpuri Cotton",
+    "color": "Red",
+    "design": "Traditional",
+    "material": "Cotton",
+    "price": 2499,
+    "imageUrl": "https://img.clevup.in/38026/1688869492615_SKU-3129_0.jpg?width=600&format=webp",
+    "description": "Pure cotton elegance from Western Odisha",
+    "tags": ["Ikat", "Sambalpuri", "Cotton"]
+  },
+  {
+    "name": "Silk Sambalpuri Bomkai",
+    "color": "Black",
+    "design": "Silk",
+    "material": "Silk",
+    "price": 5999,
+    "imageUrl": "https://www.bharatsthali.com/cdn/shop/products/final-1_4bc1c8fb-4490-4588-bf5e-f2b63c5c94fa.jpg?v=1654350697&width=1080",
+    "description": "Rich silk weave with traditional ikat patterns",
+    "tags": ["Bomkai", "Silk", "Ikat"]
+  },
+  {
+    "name": "Designer Pasapalli Edition",
+    "color": "Blue",
+    "design": "Modern",
+    "material": "Mixed",
+    "price": 3299,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuduhSgTbcLBxdJ8RCHBjg7R93ldPmC5ZgOw&s",
+    "description": "Modern twist on timeless tradition",
+    "tags": ["Pasapalli", "Designer"]
+  }
+]

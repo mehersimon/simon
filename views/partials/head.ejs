@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= title %></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/public/css/styles.css" />
+</head>
+<body class="min-h-screen bg-zinc-50 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 font-sans">
+  <header class="bg-primary-800 text-white shadow-lg">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
+      <a href="/" class="text-xl sm:text-2xl font-bold tracking-wide">Sambalpuri Saree Hub</a>
+      <div class="flex items-center gap-3">
+        <nav class="hidden sm:flex gap-6 text-sm">
+          <a class="hover:text-primary-200 transition" href="/">Home</a>
+          <a class="hover:text-primary-200 transition" href="/about">About</a>
+          <a class="hover:text-primary-200 transition" href="/find">Find Saree</a>
+          <a class="hover:text-primary-200 transition" href="/contact">Contact</a>
+        </nav>
+        <button id="themeToggle" class="rounded-full bg-primary-600 hover:bg-primary-500 transition px-3 py-2 text-sm">Dark Mode</button>
+      </div>
+    </div>
+  </header>

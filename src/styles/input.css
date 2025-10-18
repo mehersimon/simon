@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities */
+@layer utilities {
+  .bg-gradient-ikat {
+    background-image: linear-gradient(135deg, #f5e6f7 0%, #ffffff 100%);
+  }
+  .bg-gradient-royal {
+    background-image: linear-gradient(135deg, #7f1f8c 0%, #9d30b8 50%, #511454 100%);
+  }
+}
